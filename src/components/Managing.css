@@ -1,0 +1,42 @@
+/* Add your styles for the Managing page here */
+.managing-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.managing-container h2 {
+    margin-bottom: 20px;
+}
+
+.maintenance-list {
+    list-style: none;
+    padding: 0;
+}
+
+.family-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.family-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.family-item button:hover {
+    background-color: #0056b3;
+}
+
+.fine-message {
+    color: red;
+    margin-top: 10px;
+}
